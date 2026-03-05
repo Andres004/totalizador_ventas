@@ -12,4 +12,11 @@ describe("Totalizador de Ventas", () => {
     totalizador.setPrecio(3);
     expect(totalizador.getPrecio()).toEqual(3);
   });
+
+  it("debería calcular el precio neto correctamente", () => {
+    let totalizador = new Totalizador();
+    totalizador.setCantidad(20);
+    totalizador.setPrecio(3);
+    expect(totalizador.getNeto()).toEqual(60);
+  });
 });

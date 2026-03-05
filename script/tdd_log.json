@@ -14,9 +14,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f75657c7399f5d572249ea1763c41fb838d1ab42",
     "commitName": "feat: ingresar y mostrar precios de items",
     "commitTimestamp": 1772718597373,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772719463558,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular y mostrar el precio neto",
+    "commitTimestamp": 1772719488032,
+    "testId": 2
   }
 ]

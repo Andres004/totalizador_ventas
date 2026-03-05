@@ -2,25 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Totalizador - Incremental</title>
+    <title>Totalizador - Desarrollo Evolutivo</title>
 </head>
 <body>
     <h1>Totalizador de Ventas</h1>
 
     <form id="totalizador-form">
-        <label for="cantidad">Cantidad de ítems:</label>
-        <input type="number" id="cantidad-input">
-        <br><br>
-        <label for="precio">Precio de ítems:</label>
-        <input type="number" id="precio-input">
-        <br><br>
-        <button type="submit" id="totalizar-btn">Mostrar Datos</button>
+        <div>
+            <label for="cantidad-input">Cantidad de ítems:</label>
+            <input type="number" id="cantidad-input">
+            <p>Cantidad:<strong> <span id="cantidad-display">0</span></strong></p>
+        </div>
+        <br>
+        <div>
+            <label for="precio-input">Precio por ítem:</label>
+            <input type="number" id="precio-input">
+            <p>Precio:<strong><span id="precio-display">0</span></strong></p>
+        </div>
+        <br>
+        <button type="submit" id="totalizar-btn">Calcular</button>
+        
     </form>
 
-    <div id="resultado-div">
-        <p>Cantidad ingresada: <span id="cantidad-display">0</span></p>
-        <p>Precio ingresado: <span id="precio-display">0</span></p>
-    </div>
+
+    <p>Precio Neto: $<span id="neto-display">0</span></p>
 
     <script type="module" src="./src/presenter.js"></script>
 </body>
