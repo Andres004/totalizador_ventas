@@ -1,18 +1,23 @@
 class Totalizador {
-
-  constructor() 
-  {
+  constructor() {
     this.cantidad = 0;
+    this.precio = 0;
   }
 
-  setCantidad(cantidad) 
-  {
+  setCantidad(cantidad) {
     this.cantidad = cantidad;
   }
 
-  getCantidad() 
-  {
+  getCantidad() {
     return this.cantidad;
+  }
+
+  setPrecio(precio) {
+    this.precio = precio;
+  }
+
+  getPrecio() {
+    return this.precio;
   }
 }
 

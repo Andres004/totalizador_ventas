@@ -8,9 +8,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7238a6b3a8258becde97e0865da151f1b99836cc",
     "commitName": "feat: ingresar y mostrar cantidad de items",
     "commitTimestamp": 1772718154827,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ingresar y mostrar precios de items",
+    "commitTimestamp": 1772718597373,
+    "testId": 1
   }
 ]

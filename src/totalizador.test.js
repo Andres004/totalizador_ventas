@@ -6,4 +6,10 @@ describe("Totalizador de Ventas", () => {
     totalizador.setCantidad(20);
     expect(totalizador.getCantidad()).toEqual(20);
   });
+
+  it("debería mostrar el precio del item ingresado", () => {
+    let totalizador = new Totalizador();
+    totalizador.setPrecio(3);
+    expect(totalizador.getPrecio()).toEqual(3);
+  });
 });

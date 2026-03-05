@@ -10,11 +10,16 @@
     <form id="totalizador-form">
         <label for="cantidad">Cantidad de ítems:</label>
         <input type="number" id="cantidad-input">
-        <button type="button" id="totalizar-btn">Mostrar Cantidad</button>
+        <br><br>
+        <label for="precio">Precio de ítems:</label>
+        <input type="number" id="precio-input">
+        <br><br>
+        <button type="submit" id="totalizar-btn">Mostrar Datos</button>
     </form>
 
     <div id="resultado-div">
         <p>Cantidad ingresada: <span id="cantidad-display">0</span></p>
+        <p>Precio ingresado: <span id="precio-display">0</span></p>
     </div>
 
     <script type="module" src="./src/presenter.js"></script>
