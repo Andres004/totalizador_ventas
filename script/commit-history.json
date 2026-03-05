@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-05T13:42:33.000Z",
+      "message": "feat: ingresar y mostrar cantidad de items",
+      "url": "https://github.com/Andres004/totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 118,
+      "additions": 76,
+      "deletions": 42,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
