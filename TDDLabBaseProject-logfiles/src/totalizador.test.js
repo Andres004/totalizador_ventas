@@ -21,10 +21,11 @@ describe("Totalizador de Ventas", () => {
     expect(totalizador.getNeto()).toEqual(60);
   });
 
+  
   it("debería obtener el porcentaje de impuesto para el estado TX", () => {
     let totalizador = new Totalizador();
     totalizador.setEstado("TX");
     expect(totalizador.getImpuestoPorcentaje()).toEqual(0.0625);
   });
-  
+
 });
