@@ -1,0 +1,97 @@
+[
+  {
+    "sha": "7238a6b3a8258becde97e0865da151f1b99836cc",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-05T13:42:33.000Z",
+      "message": "feat: ingresar y mostrar cantidad de items",
+      "url": "https://github.com/Andres004/totalizador_ventas/commit/7238a6b3a8258becde97e0865da151f1b99836cc"
+    },
+    "stats": {
+      "total": 118,
+      "additions": 76,
+      "deletions": 42,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f75657c7399f5d572249ea1763c41fb838d1ab42",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-05T13:49:56.000Z",
+      "message": "feat: ingresar y mostrar precios de items",
+      "url": "https://github.com/Andres004/totalizador_ventas/commit/f75657c7399f5d572249ea1763c41fb838d1ab42"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 31,
+      "deletions": 9,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5a3e731cf19f921d88d5ce9af29502ebe2fff5a7",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-05T14:04:46.000Z",
+      "message": "feat: calcular y mostrar el precio neto",
+      "url": "https://github.com/Andres004/totalizador_ventas/commit/5a3e731cf19f921d88d5ce9af29502ebe2fff5a7"
+    },
+    "stats": {
+      "total": 57,
+      "additions": 39,
+      "deletions": 18,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d79dae24a82d62159ad9044467db36706e7ef7a2",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-05T14:11:55.000Z",
+      "message": "style: modificacion de index",
+      "url": "https://github.com/Andres004/totalizador_ventas/commit/d79dae24a82d62159ad9044467db36706e7ef7a2"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-05T14:25:44.000Z",
+      "message": "style: modificacion de index",
+      "url": "https://github.com/Andres004/totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
