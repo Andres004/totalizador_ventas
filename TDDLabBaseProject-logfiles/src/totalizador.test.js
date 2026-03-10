@@ -13,6 +13,7 @@ describe("Totalizador de Ventas", () => {
     expect(totalizador.getPrecio()).toEqual(3);
   });
 
+  
   it("debería calcular el precio neto correctamente", () => {
     let totalizador = new Totalizador();
     totalizador.setCantidad(20);
